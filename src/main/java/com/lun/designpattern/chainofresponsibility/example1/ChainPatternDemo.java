@@ -1,4 +1,4 @@
-package com.lun.designpattern.chainofresponsibility;
+package com.lun.designpattern.chainofresponsibility.example1;
 
 public class ChainPatternDemo {
 	private static AbstractLogger getChainOfLoggers() {
@@ -29,3 +29,13 @@ public class ChainPatternDemo {
 		System.out.println();
 	}
 }
+/*
+Standard Console::Logger: This is an information.
+
+File::Logger: This is an debug level information.
+Standard Console::Logger: This is an debug level information.
+
+Error Console::Logger: This is an error information.
+File::Logger: This is an error information.
+Standard Console::Logger: This is an error information.
+*/

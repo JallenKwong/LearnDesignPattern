@@ -1,4 +1,4 @@
-package com.lun.designpattern.chainofresponsibility;
+package com.lun.designpattern.chainofresponsibility.example1;
 
 public class FileLogger extends AbstractLogger {
 
