@@ -91,6 +91,8 @@
 		}
 	}
 
+PS.《Java Concurrency in Practice》中文版 P286 不建议这样做
+
 #### 5.登记式/静态内部类（线性安全） ####
 
 这种方式同样利用了 classloder 机制来保证初始化 instance 时只有一个线程
